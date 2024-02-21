@@ -25,6 +25,7 @@ try:
 
     # Navegar a la URL que requiere autenticación
     url = "https://github.com/kesslertopaz/STI-v3/issues?q=is%3Aopen+is%3Aissue+label%3A%22Sprint+37%22+assignee%3Ajpintoktmc+-label%3A%22QA+Done%22"
+    expected_url = url
     driver.get(url)
 
     username_field = driver.find_element(By.NAME, "login")  # Reemplaza con el nombre real del campo
@@ -70,7 +71,7 @@ try:
     # Obtener el título de la página
  # Verificar que la URL actual sea la esperada después de los 30 segundos
     current_url = driver.current_url
-    expected_url = "https://github.com/kesslertopaz/STI-v3/issues?q=is%3Aopen+is%3Aissue+label%3A%22Sprint+37%22+assignee%3Ajpintoktmc+-label%3A%22QA+Done%22"
+    #expected_url = "https://github.com/kesslertopaz/STI-v3/issues?q=is%3Aopen+is%3Aissue+label%3A%22Sprint+37%22+assignee%3Ajpintoktmc+-label%3A%22QA+Done%22"
     # Diccionario para almacenar los objetos JSON
     all_cases = {}
     if current_url == expected_url:
