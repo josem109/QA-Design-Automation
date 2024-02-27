@@ -1,8 +1,8 @@
 {
-  "LOGIN_USERNAME": "jpinto@ktmc.com",
-  "LOGIN_PASSWORD": "*Gr4ndl0rd*",
-  "GITHUB_USERNAME": "jpintoktmc",
-  "user_session": "ZaNlR2WMJ04hlfY0RiAfVg52wUR5SGBMbkc20PPtVvDUuCAv",
+  "LOGIN_USERNAME": "",
+  "LOGIN_PASSWORD": "",
+  "GITHUB_USERNAME": "",
+  "user_session": "",
   "session_guid_value_edge": "PASTE EDGE SESSIONGUID HERE",
   "user_agent_for_headless_chrome": "PASTE CHROME USER AGENT HERE",
   "user_agent_for_headless_edge": "PASTE EDGE USER AGENT HERE"
